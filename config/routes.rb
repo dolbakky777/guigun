@@ -1,4 +1,6 @@
 Guigun::Application.routes.draw do
+  resources :instances
+
   root :to => 'home#index'
 
   get "home/index"

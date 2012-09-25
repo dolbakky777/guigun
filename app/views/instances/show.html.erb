@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Application:</b>
+  <%= @instance.application %>
+</p>
+
+<p>
+  <b>Branch:</b>
+  <%= @instance.branch %>
+</p>
+
+<p>
+  <b>Server:</b>
+  <%= @instance.server %>
+</p>
+
+<p>
+  <b>Memo:</b>
+  <%= @instance.memo %>
+</p>
+
+
+<%= link_to 'Edit', edit_instance_path(@instance) %> |
+<%= link_to 'Back', instances_path %>
