@@ -3,7 +3,7 @@ Guigun::Application.routes.draw do
 
   resources :instances
 
-  root :to => 'home#index'
+  root :to => 'instances#index'
 
   get "home/index"
 
